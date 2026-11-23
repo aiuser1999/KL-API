@@ -1,0 +1,19 @@
+{
+  "name": "kl-image-gen",
+  "version": "1.0.0",
+  "private": true,
+  "description": "agent.kl-api.info 生图技能：文生图 / 改图 / 多图融合",
+  "bin": {
+    "kl-image-gen": "scripts/node/image-gen.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "SKILL.md",
+    "INSTALL.md",
+    "scripts",
+    "references"
+  ],
+  "license": "UNLICENSED"
+}
