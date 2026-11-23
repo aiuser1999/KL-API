@@ -7,10 +7,16 @@
 请让 OpenClaw、Hermes、Codex、Claude Code、OpenCode、Cursor 或其他客户端读取并保存整个目录：
 
 ```text
-https://YOUR-DOMAIN/install/skill/image-gen
+https://dl.kl-api.info/install/skill/image-gen
 ```
 
-如果客户端不能自动下载目录，请依次读取并保存：
+服务器没有目录索引，直接请求目录地址会返回 404。请让客户端先读清单文件，里面有全部文件的路径、大小和类型：
+
+```text
+https://dl.kl-api.info/install/skill/image-gen/index.json
+```
+
+如果客户端不能自动下载目录，也可以依次读取并保存：
 
 - `SKILL.md`
 - `INSTALL.md`
@@ -116,7 +122,7 @@ python3 scripts/python/image_gen.py --mode text --prompt "一只太空猫" --out
 
 ```text
 请安装并启用这个生图 skill：
-https://YOUR-DOMAIN/install/skill/image-gen/INSTALL.md
+https://dl.kl-api.info/install/skill/image-gen/INSTALL.md
 
 以后我说"生图""编辑图片"或"根据图片生成新图片"时，
 请默认使用这个 skill，并优先调用其中的脚本。
