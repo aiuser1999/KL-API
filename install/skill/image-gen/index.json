@@ -1,0 +1,51 @@
+{
+  "name": "image-gen",
+  "version": "1.0.0",
+  "entry": "INSTALL.md",
+  "base": "https://dl.kl-api.info/install/skill/image-gen/",
+  "updated": "2026-11-23",
+  "files": [
+    {
+      "path": "INSTALL.md",
+      "bytes": 5110,
+      "type": "text/markdown",
+      "sha256": "b13eb400a7893fcece22cdead7ad7baeddd92f2b9aabb109109930cd0590ad86",
+      "url": "https://dl.kl-api.info/install/skill/image-gen/INSTALL.md"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 2671,
+      "type": "text/markdown",
+      "sha256": "1665194b17a910ef2ee096f1e90e1d5f281c971251e19115381d749059f90d38",
+      "url": "https://dl.kl-api.info/install/skill/image-gen/SKILL.md"
+    },
+    {
+      "path": "package.json",
+      "bytes": 371,
+      "type": "application/json",
+      "sha256": "0631d512fbf75dd5da053ca502361be0ae3c2a5c682fc68ba3caf649fc18a0a4",
+      "url": "https://dl.kl-api.info/install/skill/image-gen/package.json"
+    },
+    {
+      "path": "references/api-recipes.md",
+      "bytes": 2551,
+      "type": "text/markdown",
+      "sha256": "cf0126ee8ae3f31c0cdb1c23f167c8e032d05b8be71ddf0e3aa3274d7c0d8014",
+      "url": "https://dl.kl-api.info/install/skill/image-gen/references/api-recipes.md"
+    },
+    {
+      "path": "scripts/node/image-gen.js",
+      "bytes": 9064,
+      "type": "text/plain",
+      "sha256": "ce9bdb32f3e5e4f3f287e2ebed4a606829530b09038d3dd07a7907d38d6792f4",
+      "url": "https://dl.kl-api.info/install/skill/image-gen/scripts/node/image-gen.js"
+    },
+    {
+      "path": "scripts/python/image_gen.py",
+      "bytes": 8741,
+      "type": "text/plain",
+      "sha256": "befe9f049e76a2eed634860d3b9d180fc609c4c1f8f20acc7a952ae9828c6334",
+      "url": "https://dl.kl-api.info/install/skill/image-gen/scripts/python/image_gen.py"
+    }
+  ]
+}
